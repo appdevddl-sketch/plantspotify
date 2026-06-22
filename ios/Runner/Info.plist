@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>PlantSpotify</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>plants_spotify</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+    <array>
+    	<dict>
+    		<key>CFBundleTypeRole</key>
+    		<string>Editor</string>
+    		<key>CFBundleURLSchemes</key>
+    		<array>
+    			<string>com.googleusercontent.apps.352762536946-q2b21e5ite92122k076lnfgd9lfd0d49</string>
+    		</array>
+    	</dict>
+    </array>
+    <key>GIDClientID</key>
+    <string>352762536946-q2b21e5ite92122k076lnfgd9lfd0d49.apps.googleusercontent.com</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+    <string>PlantSpotify needs access to your photo library so you can select existing plant photos for instant species identification and disease diagnosis. For example, choose a photo of a plant from your camera roll to identify its species or check for pests and health issues.</string>
+
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>PlantSpotify saves identified plant images and diagnosis results to your photo library. For example, after identifying a plant species, you can save the result image to your camera roll to reference later or share with others.</string>
+    <key>NSAppleMusicUsageDescription</key>
+	<string>This app requires access to your media library to enhance your experience with audio playback and media management.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>PlantSpotify uses your camera to photograph plants for instant species identification and disease diagnosis. For example, point your camera at a houseplant to identify its species, or capture a leaf showing yellow spots to diagnose a potential pest or nutrient deficiency.</string>
+	<key>NSFileSystemUsageDescription</key>
+	<string>We need access to your files for document management.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+		<string>fetch</string>
+	</array>
+</dict>
+</plist>

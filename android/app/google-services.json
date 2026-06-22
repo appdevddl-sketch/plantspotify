@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "352762536946",
+    "project_id": "plants-spotify",
+    "storage_bucket": "plants-spotify.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352762536946:android:4b48cccb4d1661e8c5016b",
+        "android_client_info": {
+          "package_name": "com.plant.spotify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352762536946-97n3s3kkbpo70su0l0ep58ovndm85bub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.plant.spotify",
+            "certificate_hash": "d136eed97e1397950dfcae36100c18ab9d3aaa70"
+          }
+        },
+        {
+          "client_id": "352762536946-nmccgffasrb9l1n90inus1m7jip6mo7u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.plant.spotify",
+            "certificate_hash": "a0937dd2e41c3b67298f1918ab544180a9208b27"
+          }
+        },
+        {
+          "client_id": "352762536946-93jfea9vcsctmdrlbgsdanh4v2e6r5eh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf3tFjAQFDhbBx-oN-aI_U0eSJQMarUyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352762536946-93jfea9vcsctmdrlbgsdanh4v2e6r5eh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "352762536946-btf25em9l78k7u880trggbikfumd7meo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.plants.spotify"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
